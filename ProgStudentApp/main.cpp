@@ -25,6 +25,8 @@ void populateMayExamResults(CProgStudent[]);
 bool studentExistsInList(string kNumber, CProgStudent[]);
 int  findStudentInList(string kNumber, CProgStudent[]);
 void checkIfStudentFailed(CProgStudent list[]);
+void showPassList(CProgStudent list[]);
+void showResultsBreakdown(string kNumber, CProgStudent[]);
 
 
 int main() {
@@ -162,6 +164,33 @@ void checkIfStudentFailed(CProgStudent list[]){
     else
         cout << "Failed";
     cout << endl;
+}
+
+void showPassList(CProgStudent list[]){
+    cout << "Name\t\tResult\t\tPass/Fail\n";
+    for(int i = 0; i < NUM_STUDENTS; i++){
+        cout << list[i].GetName() << "\t\t" << list[i].GetTotalMark() << "\t\t\t";
+        if(list[i].hasPassed())
+            cout << "Passed";
+        else
+            cout << "Failed";
+        cout << endl;
+    }
+}
+
+void showResultsBreakdown(CProgStudent list[]){
+    string kNum;
+    int index;
+    cout << "Check to see whether a particular student has failed" << endl;
+    do{
+        cout << "Enter a kNumber: ";
+        cin >> kNum;
+        index = findStudentInList(kNum, list);
+        if(index == -1)
+            cout << "Student not found in list, try again!" << endl;
+    } while(index == -1);
+    list[index].ShowDetails();
+    
 }
 
 
