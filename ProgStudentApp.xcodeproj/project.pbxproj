@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B9AA745327DDFD5B00A9E521 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9AA745227DDFD5B00A9E521 /* main.cpp */; };
+		B9AA745B27DDFD9900A9E521 /* CProgStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9AA745927DDFD9900A9E521 /* CProgStudent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B9AA744F27DDFD5B00A9E521 /* ClassCreationPractical */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassCreationPractical; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AA744F27DDFD5B00A9E521 /* ProgStudentApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgStudentApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AA745227DDFD5B00A9E521 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B9AA745927DDFD9900A9E521 /* CProgStudent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CProgStudent.cpp; sourceTree = "<group>"; };
+		B9AA745A27DDFD9900A9E521 /* CProgStudent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CProgStudent.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		B9AA744627DDFD5B00A9E521 = {
 			isa = PBXGroup;
 			children = (
-				B9AA745127DDFD5B00A9E521 /* ClassCreationPractical */,
+				B9AA745127DDFD5B00A9E521 /* ProgStudentApp */,
 				B9AA745027DDFD5B00A9E521 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,27 @@
 		B9AA745027DDFD5B00A9E521 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9AA744F27DDFD5B00A9E521 /* ClassCreationPractical */,
+				B9AA744F27DDFD5B00A9E521 /* ProgStudentApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9AA745127DDFD5B00A9E521 /* ClassCreationPractical */ = {
+		B9AA745127DDFD5B00A9E521 /* ProgStudentApp */ = {
 			isa = PBXGroup;
 			children = (
 				B9AA745227DDFD5B00A9E521 /* main.cpp */,
+				B9AA745927DDFD9900A9E521 /* CProgStudent.cpp */,
+				B9AA745A27DDFD9900A9E521 /* CProgStudent.hpp */,
 			);
-			path = ClassCreationPractical;
+			path = ProgStudentApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9AA744E27DDFD5B00A9E521 /* ClassCreationPractical */ = {
+		B9AA744E27DDFD5B00A9E521 /* ProgStudentApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9AA745627DDFD5B00A9E521 /* Build configuration list for PBXNativeTarget "ClassCreationPractical" */;
+			buildConfigurationList = B9AA745627DDFD5B00A9E521 /* Build configuration list for PBXNativeTarget "ProgStudentApp" */;
 			buildPhases = (
 				B9AA744B27DDFD5B00A9E521 /* Sources */,
 				B9AA744C27DDFD5B00A9E521 /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ClassCreationPractical;
+			name = ProgStudentApp;
 			productName = ClassCreationPractical;
-			productReference = B9AA744F27DDFD5B00A9E521 /* ClassCreationPractical */;
+			productReference = B9AA744F27DDFD5B00A9E521 /* ProgStudentApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9AA744A27DDFD5B00A9E521 /* Build configuration list for PBXProject "ClassCreationPractical" */;
+			buildConfigurationList = B9AA744A27DDFD5B00A9E521 /* Build configuration list for PBXProject "ProgStudentApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9AA744E27DDFD5B00A9E521 /* ClassCreationPractical */,
+				B9AA744E27DDFD5B00A9E521 /* ProgStudentApp */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AA745327DDFD5B00A9E521 /* main.cpp in Sources */,
+				B9AA745B27DDFD9900A9E521 /* CProgStudent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9AA744A27DDFD5B00A9E521 /* Build configuration list for PBXProject "ClassCreationPractical" */ = {
+		B9AA744A27DDFD5B00A9E521 /* Build configuration list for PBXProject "ProgStudentApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9AA745427DDFD5B00A9E521 /* Debug */,
@@ -269,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9AA745627DDFD5B00A9E521 /* Build configuration list for PBXNativeTarget "ClassCreationPractical" */ = {
+		B9AA745627DDFD5B00A9E521 /* Build configuration list for PBXNativeTarget "ProgStudentApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9AA745727DDFD5B00A9E521 /* Debug */,
